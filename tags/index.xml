@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Viktor Krejčíř</title>
-    <link>http://vktr.cz/tags/</link>
+    <link>https://vikmstr.github.io/vktr_cz/tags/</link>
     <description>Recent content in Tags on Viktor Krejčíř</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>cs-cz</language><atom:link href="http://vktr.cz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>cs-cz</language><atom:link href="https://vikmstr.github.io/vktr_cz/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

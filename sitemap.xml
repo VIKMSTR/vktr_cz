@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://vktr.cz/categories/</loc>
+    <loc>https://vikmstr.github.io/vktr_cz/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://vktr.cz/tags/</loc>
+    <loc>https://vikmstr.github.io/vktr_cz/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://vktr.cz/</loc>
+    <loc>https://vikmstr.github.io/vktr_cz/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

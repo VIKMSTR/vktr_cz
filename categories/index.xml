@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Viktor Krejčíř</title>
-    <link>http://vktr.cz/categories/</link>
+    <link>https://vikmstr.github.io/vktr_cz/categories/</link>
     <description>Recent content in Categories on Viktor Krejčíř</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>cs-cz</language><atom:link href="http://vktr.cz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>cs-cz</language><atom:link href="https://vikmstr.github.io/vktr_cz/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
