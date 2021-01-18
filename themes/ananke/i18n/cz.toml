@@ -1,0 +1,35 @@
+[more]
+other = "Další"
+
+[allTitle]
+other = "Všechny {{.Title }}"
+
+[recentTitle]
+other = "Nedávné {{.Title }}"
+
+[readMore]
+other = "číst dále"
+
+[whatsInThis]
+other = "Co je v {{ .Type }}"
+
+[related]
+other = "Podobné"
+
+[yourName]
+other = "Your Name"
+
+[emailAddress]
+other = "Email Address"
+
+[message]
+other = "Message"
+
+[emailRequiredNote]
+other = "An email address is required."
+
+[send]
+other = "Send"
+
+[taxonomyPageList]
+other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
