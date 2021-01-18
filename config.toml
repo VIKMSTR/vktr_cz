@@ -1,4 +1,5 @@
-baseURL = "http://vktr.cz/"
+# baseURL = "http://vktr.cz/"
+baseURL = "https://vikmstr.github.io/vktr_cz/"
 languageCode = "cs-cz"
 title = "Viktor Krejčíř"
 theme = "ananke"
