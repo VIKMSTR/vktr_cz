@@ -22,6 +22,11 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Pull sources
+        uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       - name: Hugo setup
        # You may pin to the exact commit or the version.
        # uses: peaceiris/actions-hugo@2e89aa66d0093e4cd14751b3028fc1a179452c2e
@@ -29,5 +34,14 @@ jobs:
         with:
           # The Hugo version to download (if necessary) and use. Example: 0.58.2
            # Download (if necessary) and use Hugo extended version. Example: true
-           extended: true # optional, default is false    
+           extended: true # optional, default is false
+      - name: Compile
+        run: hugo --minify
+      - name: Publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public       
+          
+          
           
