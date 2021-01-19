@@ -36,7 +36,7 @@ jobs:
            # Download (if necessary) and use Hugo extended version. Example: true
            extended: true # optional, default is false
       - name: Compile
-        run: HUGO_ENV=production hugo
+        run: HUGO_ENV=production hugo --minify
         
       - name: Create CNAME
         run: echo vktr.cz > ./public/CNAME
