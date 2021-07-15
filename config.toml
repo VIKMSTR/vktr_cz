@@ -15,6 +15,17 @@ enableRobotsTXT = true
   priority = 0.5
   filename = "sitemap.xml"
 
+[languages]
+  [languages.en]
+    title = "Viktor Krejcir"
+    contentDir = "content/en"
+    [languages.en.params]
+    description="There is a lot of pages on the internet. Another one won`t hurt anyone. :) "
+  [languages.cz]
+    title = "Viktor Krejčíř"
+    contentDir = "content/cz"
+    [languages.cz.params]
+    description="Na internetu je spousta stránek. Jedna navíc neuškodí :)"  
 [params]
   favicon = ""
   site_logo = ""
