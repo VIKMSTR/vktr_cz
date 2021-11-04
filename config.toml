@@ -2,7 +2,7 @@ baseURL = "https://vktr.cz/"
 #baseURL = "https://vikmstr.github.io/vktr_cz/"
 languageCode = "cs-cz"
 title = "Viktor Krejčíř"
-theme = "ananke"
+theme = "blist"
 
 DefaultContentLanguage = "cz"
 SectionPagesMenu = "main"
@@ -20,12 +20,16 @@ enableRobotsTXT = true
     title = "Viktor Krejcir"
     contentDir = "content/en"
     [languages.en.params]
-    description="There is a lot of pages on the internet. Another one won`t hurt anyone. :) "
+    introTitle = "Hi and welcome!"
+    introSubtitle="There is a lot of pages on the internet. Another one won`t hurt anyone. :) "
+    introPhoto = "/images/03.jpg"
   [languages.cz]
     title = "Viktor Krejčíř"
     contentDir = "content/cz"
     [languages.cz.params]
-    description="Na internetu je spousta stránek. Jedna navíc neuškodí :)"  
+    introTitle = "Ahoj a vítejte!"
+    introSubtitle="Na internetu je spousta stránek. Jedna navíc neuškodí :)"
+    introPhoto = "/images/03.jpg"  
 [params]
   favicon = ""
   site_logo = ""
@@ -41,8 +45,23 @@ enableRobotsTXT = true
   slack = ""
   stackoverflow = ""
   rss = ""
+  darkModeToggle="true"
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
+  ascentColor = "bg-yellow-50"
 #   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
   featured_image = "/images/03.jpg"
   recent_posts_number = 2
+  enableSearch = false
+
+
+  [params.homepage.social]
+  # Global params xommon for both languages
+  title = "Follow me"
+  description = "I work on everything coding and tweet developer memes"
+  twitter = "https://twitter.com/"
+  linkedin = "https://linkedin.com/in/"
+  github = "https://github.com/"
+  medium = "https://medium.com/"
+  reddit = "https://reddit.com/"
+  dribbble = "https://dribbble.com/"
