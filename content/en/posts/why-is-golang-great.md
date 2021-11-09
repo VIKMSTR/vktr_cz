@@ -56,13 +56,73 @@ Simple, yet powerful solution, making the Go in concurrent programming incredibl
 
 Well this is very nice language feature. You know the inheritance principle, right? You have parent class/structure , than you got a child classes/structures that uses the functionality of the parent one
 and extend its functionality. This is working concept but has some flaws as well. C++ coders are familiar when you extend multiple parent classes for example.
-Or the simple fact that the relationship between the child and the parent is very tight. When you change the base class, every hierarchy underneath this base (parent class) changes.
+Or the simple fact that the relationship between the child and the parent is very tight. When you change the functionality base class, every hierarchy underneath this base (parent class) changes.
 
 Go does not support inheritance. Like not at all - the principle as you know it is not really present here.
 
 It replaces it with different principle - composition. 
 It basically means, that you combine multiple structure/interfaces together to achieve basically the same as inheritance.
-You do not extend any class (classes are not a thing in Go) - you implement interfaces.
+You do not extend any class (classes are not a thing in Go) - you embed interfaces/structs.
+
+Let's see:
+```java
+public abstract class BaseClass {
+    public BaseClass(){
+        //constructor code
+    }
+    public int doSomething() {...}
+    public String doSomethingElse(String parameter) {
+        ...
+    return someString
+    }
+}
+
+
+public class ChildClass extends BaseClass {
+    public ChildClass(){
+        super()
+        //constructor code
+    }
+    public int doSomethingExtra() {...}
+}
+```
+
+Thats just simple inheritance in Java. How to achieve something similar in go? (we assume that this class is not a data structure, so lets define interfaces)
+
+```go
+type BaseInterface interface{
+    DoSomething() int
+    DoSomethingElse(parameter string) string
+} 
+
+type ChildInterface interface{
+    BaseInterface
+    DoSomethingExtra() int 
+}
+```
+
+There you go. Notice how the BaseInterface type is embedded in the ChildInterface one.
+We can call the DoSomething() and DoSomethingElse() methods on the ChildInterface as well.
+
+However this is not a perfect analogy, since we are replacing the inheritance with composition. 
+And interfaces just define the signature of the functions (name, parameters, return value). 
+Refactored back in Java would look like:
+
+```java
+public interface BaseInterface {
+    int doSomething()
+    String doSometingElse(String parameter)
+}
+
+public interface ChildInterface extends BaseInterface {
+    int doSomethingExtra()
+}
+
+```
+
+There you go. It does not mean, that you cannot do such interface inheritance/composition in Java.
+Just Go won't let you do dangerous stuff with the classes hierarchy and calling parent constructors.
+Which is good and leads to a more understandable code without dangerous side-effects.
 
 
 ## Batteries included
