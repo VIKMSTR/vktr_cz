@@ -6,6 +6,7 @@ translationKey: "about"
 comments:       false
 showMeta:       false
 showActions:    false
+summary: ""
 ---
 Software developer, also known as "the one who works with computers and is capable of setting up the printer".
 Experienced Javist, being bored of convenient development in JavaEE and Spring.

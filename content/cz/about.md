@@ -5,6 +5,7 @@ draft: false
 translationKey: "about"
 comments:       false
 showActions:    false
+summary: ""
 ---
  Softwarový vývojář, doma známý též jako ten co dělá s těmi počítači a umí zapojit tiskárnu.
  Dlouholetý Javista, kterého omrzel pohodlný vývoj v JEE a Springu. 
