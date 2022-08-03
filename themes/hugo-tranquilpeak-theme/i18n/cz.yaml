@@ -1,0 +1,192 @@
+## GLOBAL ##
+- id: "global.home"
+  translation: "Úvod"
+
+- id: "global.categories"
+  translation: "Kategorie"
+
+- id: "global.category"
+  translation: "Kategorie"
+
+- id: "global.tags"
+  translation: "Tagy"
+
+- id: "global.tag"
+  translation: "Tag"
+
+- id: "global.archives"
+  translation: "Archiv"
+
+- id: "global.search"
+  translation: "Hledat"
+
+- id: "global.about"
+  translation: "O mně"
+
+- id: "global.author_picture"
+  translation: "Autorův obrázek"
+
+- id: "global.share_on"
+  translation: "Sdílet na %s"
+
+- id: "global.mail"
+  translation: "Mail"
+
+- id: "global.rss"
+  translation: "RSS"
+
+- id: "global.search_category"
+  translation: "Hledat kategorii"
+
+- id: "global.search_tag"
+  translation: "Hledat tag"
+
+- id: "global.search_date"
+  translation: "Hledat datum (YYYY/MM/DD)"
+
+- id: "global.read_more_about_author"
+  translation: "Víc o autorovi"
+
+- id: "global.zoom_in_on_picture"
+  translation: "Přiblížit obrázek"
+
+- id: "global.go_to_homepage"
+  translation: "Přejít na úvodní stránku"
+
+- id: "global.open_link"
+  translation: "Otevřít odkaz"
+
+- id: "global.open_post"
+  translation: "Otevřít příspěvek"
+
+## GLOBAL.POSTS_FOUND ##
+- id: "global.posts_found.zero"
+  translation: "příspěvek nenalezen"
+
+- id: "global.posts_found.one"
+  translation: "1 příspěvek nalezen"
+
+- id: "global.posts_found.other"
+  translation: "Nalezeno {n} příspěvků"
+
+## GLOBAL.CATEGORIES_FOUND ##
+- id: "global.categories_found.zero"
+  translation: "kategorie nenalezena"
+
+- id: "global.categories_found.one"
+  translation: "1 kategorie nalezena"
+
+- id: "global.categories_found.other"
+  translation: "Nalezeno {n} kategorií"
+
+## GLOBAL.TAGS_FOUND ##
+- id: "global.tags_found.zero"
+  translation: "tag nenalezen"
+
+- id: "global.tags_found.one"
+  translation: "1 tag nalezen"
+
+- id: "global.tags_found.other"
+  translation: "Nalezeno {n} tagů"
+
+## PAGINATION ##
+- id: "pagination.page"
+  translation: "stránka {{ .Paginator.PageNumber }}"
+
+- id: "pagination.of"
+  translation: "z {{ .Paginator.TotalPages }}"
+
+- id: "pagination.newer_posts"
+  translation: "NOVĚJŠÍ PŘÍSPĚVKY"
+
+- id: "pagination.older_posts"
+  translation: "STARŠÍ PŘÍSPĚVKY"
+
+- id: "pagination.previous"
+  translation: "PŘEDCHOZÍ"
+
+- id: "pagination.next"
+  translation: "DALŠÍ"
+
+## POST ##
+- id: "post.no_title"
+  translation: "bez titulku"
+
+- id: "post.categorized_in"
+  translation: "v"
+
+- id: "post.tagged_in"
+  translation: "OZNAČENO V"
+
+- id: "post.toc"
+  translation: "Obsah"
+
+- id: "post.read_more"
+  translation: "Pokračovat ve čtení"
+
+- id: "post.go_to_website"
+  translation: "Přejít na stránku"
+
+- id: "post.comment_and_share"
+  translation: "Komentovat a sdílet"
+
+- id: "post.comment"
+  translation: "Vložit komentář"
+
+- id: "post.back_to_top"
+  translation: "Zpátky nahoru"
+
+- id: "post.share"
+  translation: "Sdílet příspěvek"
+
+- id: "post.gallery"
+  translation: "Galerie"
+
+## POST.IMAGE ##
+
+- id: "post.image.one"
+  translation: "obrázek"
+
+- id: "post.image.other"
+  translation: "{n} obrázků"
+
+## FOOTER ##
+- id: "footer.all_rights_reserved"
+  translation: "Všechna práva vyhrazena"
+
+## DATE ##
+- id: "date.month.january"
+  translation: "Leden"
+
+- id: "date.month.february"
+  translation: "Únor"
+
+- id: "date.month.march"
+  translation: "Březen"
+
+- id: "date.month.april"
+  translation: "Duben"
+
+- id: "date.month.may"
+  translation: "Květen"
+
+- id: "date.month.june"
+  translation: "Červen"
+
+- id: "date.month.july"
+  translation: "Červenec"
+
+- id: "date.month.august"
+  translation: "Srpen"
+
+- id: "date.month.september"
+  translation: "Září"
+
+- id: "date.month.october"
+  translation: "Říjen"
+
+- id: "date.month.november"
+  translation: "Listopad"
+
+- id: "date.month.december"
+  translation: "Prosinec"
