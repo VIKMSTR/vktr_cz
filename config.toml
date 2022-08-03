@@ -12,14 +12,16 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
-baseURL = "https://example.org/"
+baseURL = "https://vktr.cz/"
 languageCode = "cs-cz"
 defaultContentLanguage = "cz"
-title = "Hugo tranquilpeak theme"
+title = "Viktor Krejčíř"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
-paginate = 7
+googleAnalytics = "G-W2966WLD08"
+enableRobotsTXT = true
+paginate = 10
 canonifyurls = true
 
 [permalinks]
@@ -49,20 +51,23 @@ canonifyurls = true
     endLevel = 3
     ordered = false
     startLevel = 1
-
+# [languages]
+#   [languages.en]
+#     [author]
+#     name = "Viktor Krejcir"
 # ------
 # Author
 # ------
 [author]
-    name = "Firstname Lastname"
-    bio = "Super bio with markdown support **COOL**"
-    job = "Your job title"
-    location = "France"
+    name = "Viktor Krejčíř"
+    bio = "🇨🇿 Softwarový vývojář, doma známý též jako ten co dělá s těmi počítači a umí zapojit tiskárnu." 
+    # Dlouholetý Javista, kterého omrzel pohodlný vývoj v JEE a Springu. Aktuálně praktikující vývojář v Go(langu) se zájmem o DevOps (protože věří, že každý schopnější backendista by měl vědět jak se jeho kód pouští). Aktuálně je fascinován koncepty, na kterých stojí Elixir a Phoenix. Fanoušek funkcionálního přístupu. Občas se koukne i na frontend, aby si nepřipadal jako dinosaurus z let XHTML4. Běhá, plave a po večerech vypíná hlavu u sportu, seriálu nebo s přáteli. Jednou za čas má potřebu něco sdělit světu na těchto stránkách.    🇬🇧"
+    job = "Software Developer"
+    location = "Czech Republic"
     # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-    gravatarEmail = "thibaud.lepretre@gmail.com"
     # Your profile picture
     # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-    picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+    picture = "images/me-tw.jpg"
     # Your Twitter username without the @. E.g : thibaudlepretre
     # twitter = "thibaudlepretre"
     # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
@@ -94,12 +99,13 @@ canonifyurls = true
   name = "Archives"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
   url = "/archives"
+  
 [[menu.main]]
   weight = 5
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-question\" aria-hidden=\"true\"></i>"
-  url = "/#about"
+  url = "/about"
 
 # [[menu.links]]
 #   weight = 5
@@ -110,6 +116,18 @@ canonifyurls = true
 
 [[menu.misc]]
   weight = 1
+  identifier = "en"
+  name = "🇬🇧 English"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-flag\" aria-hidden=\"true\"></i>"
+  url = "/en"
+  [[menu.misc]]
+  weight = 2
+  identifier = "cz"
+  name = "🇨🇿 Česky"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-flag\" aria-hidden=\"true\"></i>"
+  url = "../cz"
+[[menu.misc]]
+  weight = 3
   identifier = "rss"
   name = "RSS"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-rss\" aria-hidden=\"true\"></i>"
@@ -122,12 +140,12 @@ canonifyurls = true
   # -----------
   # Description
   # -----------
-  description = "Hugo tranquilpeak theme demo"
+  description = ""
 
   # ------------------
   # Syntax highlighter
   # ------------------
-  # Syntax highlighter, possible choice between: "highlight.js" and "prism.js"
+  # Syntax highlighter, possible choce between: "highlight.js" and "prism.js"
   # You can comment it to disable syntax highlighting
   syntaxHighlighter = "highlight.js"
 
