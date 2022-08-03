@@ -7,6 +7,7 @@ comments:       false
 showMeta:       false
 showActions:    false
 translationKey: "about"
+layout: single
 #thumbnailImage: //example.com/image.jpg
 ---
  
