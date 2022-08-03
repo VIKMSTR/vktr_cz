@@ -7,7 +7,6 @@ comments:       false
 showMeta:       false
 showActions:    false
 ---
-#
 Software developer, also known as "the one who works with computers and is capable of setting up the printer".
 Experienced Javist, being bored of convenient development in JavaEE and Spring.
 Currently practicing Go(lang) developer with an interest in DevOps (because he believes that any capable backend developer should know how to run his code). Also currently fascinated by the concepts behind Elixir and Phoenix.
