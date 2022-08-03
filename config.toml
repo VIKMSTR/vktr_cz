@@ -23,6 +23,7 @@ disqusShortname = "hugo-tranquilpeak-theme"
 enableRobotsTXT = true
 paginate = 10
 canonifyurls = true
+relativeURLs = true
 
 [permalinks]
   posts = "/:year/:month/:slug/"
@@ -369,8 +370,8 @@ canonifyurls = true
   # --------------
   [params.comment]
     [params.comment.disqus]
-      enable = true
-      shortname = "hugo-tranquilpeak-theme"
+      enable = false
+   #   shortname = "hugo-tranquilpeak-theme"
     [params.comment.gitalk]
       enable = false
       # clientId =
@@ -399,7 +400,7 @@ canonifyurls = true
     icon = ""
     url = "/about"
   [params.sidebar.profile]
-    url = "./about"
+    url = "/about"
 
   # --------------------
   # Footer configuration
