@@ -1,14 +1,15 @@
 ---
-title: "About me"
-date: 2021-01-18T17:17:53+01:00
-draft: false
-translationKey: "about"
+title: "About"
+date: 2022-08-03T16:19:59+02:00
+keywords:
+- tech
 comments:       false
 showMeta:       false
 showActions:    false
-summary: ""
+translationKey: "about"
+#thumbnailImage: //example.com/image.jpg
 ---
-
+ 
 Software developer, also known as "the one who works with computers and is capable of setting up the printer".
 Experienced Javist, being bored of convenient development in JavaEE and Spring.
 Currently practicing Go(lang) developer with an interest in DevOps (because he believes that any capable backend developer should know how to run his code). Also currently fascinated by the concepts behind Elixir and Phoenix.

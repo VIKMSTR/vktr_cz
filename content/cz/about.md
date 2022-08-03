@@ -1,11 +1,14 @@
 ---
-title: "Co jsem zač"
-date: 2021-01-18T17:17:53+01:00
-draft: false
-translationKey: "about"
+title: "O mně"
+date: 2022-08-03T16:19:59+02:00
+keywords:
+- tech
 comments:       false
+showMeta:       false
 showActions:    false
-summary: ""
+translationKey: "about"
+layout: single
+#thumbnailImage: //example.com/image.jpg
 ---
  
 Softwarový vývojář, doma známý též jako ten co dělá s těmi počítači a umí zapojit tiskárnu.
